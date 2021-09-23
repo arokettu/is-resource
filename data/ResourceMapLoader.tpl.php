@@ -10,6 +10,7 @@ if (PHP_VERSION_ID >= <?php echo $version ?>) {
 }
 
 <?php endforeach; ?>
+require __DIR__ . '/ResourceMapEmpty.php';
 class_alias('Arokettu\\IsResource\\ResourceMapEmpty', 'Arokettu\\IsResource\\ResourceMap');
 
 if (\false) {

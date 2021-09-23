@@ -26,6 +26,7 @@ if (PHP_VERSION_ID >= 50600) {
     return;
 }
 
+require __DIR__ . '/ResourceMapEmpty.php';
 class_alias('Arokettu\\IsResource\\ResourceMapEmpty', 'Arokettu\\IsResource\\ResourceMap');
 
 if (\false) {
