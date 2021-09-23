@@ -13,7 +13,7 @@ function is_resource($value)
         return \is_resource($value);
     }
 
-    return \array_key_exists(\get_class($value), ResourceMap::resourceMap());
+    return \array_key_exists(\get_class($value), ResourceMap::map());
 }
 
 /**
@@ -22,7 +22,7 @@ function is_resource($value)
 function get_resource_type($resource)
 {
     if (\is_object($resource)) {
-        $resourceMap = ResourceMap::resourceMap();
+        $resourceMap = ResourceMap::map();
         $class = \get_class($resource);
 
         if (\array_key_exists($class, $resourceMap)) {

@@ -13,8 +13,21 @@ foreach ($versionMaps as $version => $map) {
     $combinedMaps[$version] = $totalMap;
 }
 
+$combinedMaps['Empty'] = array();
+
+// generate specific versions
 foreach ($combinedMaps as $version => $map) {
-    ob_start();
-    require __DIR__ . '/../data/ResourceMap.tpl.php';
-    file_put_contents(__DIR__ . '/../src/gen/ResourceMap' . $version . '.php', ob_get_clean());
+    file_put_contents(
+        __DIR__ . '/../src/gen/ResourceMap' . $version . '.php',
+        render('ResourceMap', array(
+            'map' => $map,
+            'version' => $version,
+        ))
+    );
 }
+
+// generate loader
+file_put_contents(
+    __DIR__ . '/../src/ResourceMap.php',
+    render('ResourceMapLoader', array('versions' => array_reverse(array_keys($versionMaps))))
+);
