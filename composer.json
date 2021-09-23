@@ -17,7 +17,7 @@
     },
     "autoload": {
         "classmap": [
-            "src/ResourceMap.php"
+            "gen/ResourceMap.php"
         ],
         "files": [
             "src/functions.php"

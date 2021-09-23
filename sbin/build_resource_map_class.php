@@ -25,7 +25,7 @@ $combinedMaps['Empty'] = array();
 foreach ($combinedMaps as $version => $map) {
     ksort($map);
     file_put_contents(
-        __DIR__ . '/../src/gen/ResourceMap' . $version . '.php',
+        __DIR__ . '/../gen/ResourceMap' . $version . '.php',
         render('ResourceMap', array(
             'map' => $map,
             'version' => $version,
@@ -35,6 +35,6 @@ foreach ($combinedMaps as $version => $map) {
 
 // generate loader
 file_put_contents(
-    __DIR__ . '/../src/ResourceMap.php',
+    __DIR__ . '/../gen/ResourceMap.php',
     render('ResourceMapLoader', array('versions' => array_reverse(array_keys($versionMaps))))
 );
