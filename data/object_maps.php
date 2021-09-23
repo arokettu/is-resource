@@ -41,4 +41,18 @@ return array(
         // ext-zlib
         // TODO
     ),
+    80100 => array(
+        // ext-fileinfo
+        'finfo' => 'file_info',
+        // ext-ftp
+        // TODO
+        // ext-imap
+        // TODO
+        // ext-ldap
+        // TODO
+        // ext-pgsql
+        // TODO
+        // ext-pspell
+        // TODO
+    ),
 );
