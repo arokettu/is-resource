@@ -33,3 +33,6 @@ TODO:
   * PHP 8.0 changes
 * alpha 3
   * PHP 8.1 changes 
+* 1.0.0:
+  * tests
+  * documentation
