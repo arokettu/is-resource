@@ -11,6 +11,7 @@ $totalMap = array();
 
 foreach ($versionMaps as $version => $map) {
     $totalMap += $map;
+    ksort($totalMap);
     $combinedMaps[$version] = $totalMap;
 }
 
