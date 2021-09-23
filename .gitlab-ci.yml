@@ -28,12 +28,7 @@ stages:
     - composer update
     - tests/tests.sh
 
-# lowest version
-test-5.3:
-  extends: .test
-  stage: test
-  image: php:5.3
-
+# lowest tested version
 test-5.4:
   extends: .test
   stage: test
