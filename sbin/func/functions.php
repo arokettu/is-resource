@@ -2,7 +2,7 @@
 
 function beautify($string)
 {
-    return str_replace(array('  ', ')'), array('            ', '        )'), $string);
+    return str_replace(array('  ', "\n"), array('    ', "\n        "), $string);
 }
 
 function render($template, $values = array())

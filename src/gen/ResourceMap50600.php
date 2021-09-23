@@ -14,7 +14,11 @@ final class ResourceMap50600
     public static function map()
     {
         return array (
-            'GMP' => 'GMP integer',
+            'GMP' => 
+            array (
+                0 => 'gmp',
+                1 => 'GMP integer',
+            ),
         );
     }
 }

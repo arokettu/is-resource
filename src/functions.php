@@ -13,7 +13,10 @@ function is_resource($value)
         return \is_resource($value);
     }
 
-    return \array_key_exists(\get_class($value), ResourceMap::map());
+    $resourceMap = ResourceMap::map();
+    $class = \get_class($value);
+
+    return isset($resourceMap[$class]) && \extension_loaded($resourceMap[$class][0]);
 }
 
 /**
@@ -25,8 +28,8 @@ function get_resource_type($resource)
         $resourceMap = ResourceMap::map();
         $class = \get_class($resource);
 
-        if (\array_key_exists($class, $resourceMap)) {
-            return $resourceMap[$class];
+        if (isset($resourceMap[$class]) && \extension_loaded($resourceMap[$class][0])) {
+            return $resourceMap[$class][1];
         }
     }
 
