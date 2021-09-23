@@ -12,7 +12,7 @@ stages:
     # display PHP version
     - php -v
     # install system packages
-    - apt-get update && apt-get install -y git unzip
+    - apt-get update && apt-get install -y --force-yes git unzip
     # install extensions
 #    - docker-php-ext-install gmp
     # install composer
