@@ -1,5 +1,5 @@
-PHP Resource Compatibility Helper
-#################################
+IsResource: PHP Resource Compatibility Helper
+#############################################
 
 Make your code future compatible with opaque objects
 
@@ -31,9 +31,14 @@ Currently it only supports changes from PHP 5.6 and PHP 7.2 but the goal is to e
 TODO:
 
 * alpha 2
+
   * PHP 8.0 changes
+
 * alpha 3
+
   * PHP 8.1 changes
+
 * 1.0.0:
+
   * tests
   * documentation

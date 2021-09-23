@@ -1,4 +1,4 @@
-# PHP Resource Compatibility Helper
+# IsResource: PHP Resource Compatibility Helper
 
 Make your code future compatible with opaque objects
 
@@ -13,7 +13,7 @@ is_resource($hash); // true in PHP <= 7.1, false in PHP >= 7.2
 get_resource_type(); // "Hash Context" in PHP <= 7.1, null + warning in PHP >= 7.2
 ```
 
-Solution:
+The solution:
 
 ```php
 <?php

@@ -1,6 +1,7 @@
 {
     "name": "arokettu/is-resource",
-    "description": "Future compatible is_resource() that can understands opaque objects",
+    "description": "Future compatible is_resource() that can understand opaque objects",
+    "keywords": ["compatibility", "php80", "php81", "resources", "curl", "gd", "mysqli", "pgsql", "hash", "sockets"],
     "type": "library",
     "license": "MIT",
     "authors": [
