@@ -6,9 +6,39 @@
 
 return array(
     50600 => array(
+        // ext-gmp
         'GMP' => 'GMP integer',
     ),
     70200 => array(
+        // ext-hash
         'HashContext' => 'Hash Context'
+    ),
+    80000 => array(
+        // ext-curl
+        'CurlHandle' => 'curl',
+        'CurlMultiHandle' => 'curl_multi',
+        'CurlShareHandle' => 'curl_share',
+        // ext-enchant
+        // TODO
+        // ext-gd
+        'GdImage' => 'gd',
+        // ext-openssl
+        // TODO
+        // ext-shmop
+        // TODO
+        // ext-sockets
+        // TODO
+        // ext-sysvmsg
+        // TODO
+        // ext-sysvsem
+        // TODO
+        // ext-sysvshm
+        // TODO
+        // ext-xml
+        // TODO
+        // ext-xmlwriter
+        // TODO
+        // ext-zlib
+        // TODO
     ),
 );
