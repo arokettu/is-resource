@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Arokettu\\IsResource\\": "src/"
+            "Arokettu\\IsResource\\": ["src", "src/gen"]
         },
         "files": [
             "src/functions.php"
