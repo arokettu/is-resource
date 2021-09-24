@@ -19,7 +19,7 @@ foreach ($versionMaps as $version => $exts) {
     }
 }
 
-$combinedMaps['Empty'] = array();
+$combinedMaps['50000'] = array();
 
 // generate specific versions
 foreach ($combinedMaps as $version => $map) {
