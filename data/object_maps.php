@@ -28,8 +28,11 @@ return array(
         'gd' => array(
             'GdImage' => 'gd',
         ),
-        // ext-openssl
-        // TODO
+        'openssl' => array(
+            'OpenSSLAsymmetricKey' => 'OpenSSL key',
+            'OpenSSLCertificate' => 'OpenSSL X.509',
+            'OpenSSLCertificateSigningRequest' => 'OpenSSL X.509 CSR',
+        ),
         'shmop' => array(
             'Shmop' => 'shmop',
         ),
