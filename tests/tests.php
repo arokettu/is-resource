@@ -5,6 +5,9 @@ require __DIR__ . '/assert.php';
 
 $testCases = array();
 
+// test some popular and easy to config extensions
+// add other if they become problematic
+
 $testCases[] = array('gd', function() { return imagecreate(100, 100); });
 $testCases[] = array('GMP integer', function() { return gmp_init('1'); });
 $testCases[] = array('Hash Context', function() { return hash_init('md5'); });
