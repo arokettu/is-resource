@@ -13,7 +13,9 @@ function export($array)
             '            ' .
             var_export($key, true) .
             ' => array(' .
-            implode(', ', array_map(function ($value) { return var_export($value, true);}, $values)) .
+            implode(', ', array_map(function ($value) {
+                return var_export($value, true);
+            }, $values)) .
             "),\n";
     }
 

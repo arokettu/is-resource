@@ -1,7 +1,6 @@
 <?php echo "<?php\n" ?>
 
 namespace Arokettu\IsResource;
-<?php echo isset($code) ? $code : '' ?>
 
 /**
  * @internal
