@@ -52,6 +52,9 @@ return array(
         'xml' => array(
             'XMLParser' => 'xml',
         ),
+        'xmlrpc' => array(
+            'XmlRpcServer' => 'xmlrpc server',
+        ),
         'xmlwriter' => array(
             'XMLWriter' => 'xmlwriter',
         ),
@@ -72,10 +75,13 @@ return array(
         ),
         'ldap' => array(
             'LDAP\Connection' => 'ldap link',
+            'LDAP\Result' => 'ldap result',
+            'LDAP\ResultEntry' => 'ldap result entry',
         ),
         'pgsql' => array(
             'PgSql\Connection' => 'pgsql link',
             'PgSql\Result' => 'pgsql result',
+            'PgSql\Lob' => 'pgsql large object',
         ),
     ),
 );

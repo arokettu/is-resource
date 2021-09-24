@@ -35,6 +35,7 @@ final class ResourceMap80000
             'SysvSharedMemory' => array('sysvshm', 'sysvshm'),
             'XMLParser' => array('xml', 'xml'),
             'XMLWriter' => array('xmlwriter', 'xmlwriter'),
+            'XmlRpcServer' => array('xmlrpc', 'xmlrpc server'),
         );
     }
 }

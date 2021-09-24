@@ -28,10 +28,13 @@ final class ResourceMap80100
             'IMAP\\Connection' => array('imap', 'imap'),
             'InflateContext' => array('zlib', 'zlib.inflate'),
             'LDAP\\Connection' => array('ldap', 'ldap link'),
+            'LDAP\\Result' => array('ldap', 'ldap result'),
+            'LDAP\\ResultEntry' => array('ldap', 'ldap result entry'),
             'OpenSSLAsymmetricKey' => array('openssl', 'OpenSSL key'),
             'OpenSSLCertificate' => array('openssl', 'OpenSSL X.509'),
             'OpenSSLCertificateSigningRequest' => array('openssl', 'OpenSSL X.509 CSR'),
             'PgSql\\Connection' => array('pgsql', 'pgsql link'),
+            'PgSql\\Lob' => array('pgsql', 'pgsql large object'),
             'PgSql\\Result' => array('pgsql', 'pgsql result'),
             'Shmop' => array('shmop', 'shmop'),
             'Socket' => array('sockets', 'Socket'),
@@ -40,6 +43,7 @@ final class ResourceMap80100
             'SysvSharedMemory' => array('sysvshm', 'sysvshm'),
             'XMLParser' => array('xml', 'xml'),
             'XMLWriter' => array('xmlwriter', 'xmlwriter'),
+            'XmlRpcServer' => array('xmlrpc', 'xmlrpc server'),
             'finfo' => array('fileinfo', 'file_info'),
         );
     }
