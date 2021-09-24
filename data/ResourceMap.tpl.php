@@ -14,6 +14,6 @@ final class ResourceMap<?php echo $version, "\n" ?>
      */
     public static function map()
     {
-        return <?php echo beautify(var_export($map, true)) ?>;
+        return <?php echo export($map) ?>;
     }
 }

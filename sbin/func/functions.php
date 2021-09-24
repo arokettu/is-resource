@@ -1,8 +1,25 @@
 <?php
 
-function beautify($string)
+function export($array)
 {
-    return str_replace(array('  ', "\n"), array('    ', "\n        "), $string);
+    if ($array === array()) {
+        return 'array()';
+    }
+
+    $output = "array(\n";
+
+    foreach ($array as $key => $values) {
+        $output .=
+            '            ' .
+            var_export($key, true) .
+            ' => array(' .
+            implode(', ', array_map(function ($value) { return var_export($value, true);}, $values)) .
+            "),\n";
+    }
+
+    $output .= '        )';
+
+    return $output;
 }
 
 function render($template, $values = array())
