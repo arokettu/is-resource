@@ -31,6 +31,8 @@ final class ResourceMap80100
             'OpenSSLAsymmetricKey' => array('openssl', 'OpenSSL key'),
             'OpenSSLCertificate' => array('openssl', 'OpenSSL X.509'),
             'OpenSSLCertificateSigningRequest' => array('openssl', 'OpenSSL X.509 CSR'),
+            'PgSql\\Connection' => array('pgsql', 'pgsql link'),
+            'PgSql\\Result' => array('pgsql', 'pgsql result'),
             'Shmop' => array('shmop', 'shmop'),
             'Socket' => array('sockets', 'Socket'),
             'SysvMessageQueue' => array('sysvmsg', 'sysvmsg queue'),

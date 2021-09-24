@@ -73,7 +73,9 @@ return array(
         'ldap' => array(
             'LDAP\Connection' => 'ldap link',
         ),
-        // ext-pgsql
-        // TODO
+        'pgsql' => array(
+            'PgSql\Connection' => 'pgsql link',
+            'PgSql\Result' => 'pgsql result',
+        ),
     ),
 );
