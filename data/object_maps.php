@@ -30,20 +30,29 @@ return array(
         // TODO
         // ext-shmop
         // TODO
-        // ext-sockets
-        // TODO
-        // ext-sysvmsg
-        // TODO
-        // ext-sysvsem
-        // TODO
-        // ext-sysvshm
-        // TODO
-        // ext-xml
-        // TODO
-        // ext-xmlwriter
-        // TODO
-        // ext-zlib
-        // TODO
+        'sockets' => array(
+            'AddressInfo' => 'AddressInfo',
+            'Socket' => 'Socket',
+        ),
+        'sysvmsg' => array(
+            'SysvMessageQueue' => 'sysvmsg queue',
+        ),
+        'sysvsem' => array(
+            'SysvSemaphore' => 'sysvsem',
+        ),
+        'sysvshm' => array(
+            'SysvSharedMemory' => 'sysvshm',
+        ),
+        'xml' => array(
+            'XMLParser' => 'xml',
+        ),
+        'xmlwriter' => array(
+            'XMLWriter' => 'xmlwriter',
+        ),
+        'zlib' => array(
+            'DeflateContext' => 'zlib.deflate',
+            'InflateContext' => 'zlib.inflate',
+        ),
     ),
     80100 => array(
         'fileinfo' => array(
