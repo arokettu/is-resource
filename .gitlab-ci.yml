@@ -14,7 +14,7 @@ stages:
     # install system packages
     - apt-get update && apt-get install -y --force-yes git unzip libpng-dev libgmp-dev
     # install extensions
-    - if [ ! -f /usr/include/gmp.h ]; then; ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/include/gmp.h; fi
+    - [ ! -f /usr/include/gmp.h ] && ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/include/gmp.h
     - docker-php-ext-install gd gmp
     # install composer
     - php -r "copy('https://composer.github.io/installer.sig', '/tmp/composer.sig');"
