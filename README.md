@@ -25,14 +25,8 @@ $hash = hash_init('md5');
 ```
 
 **This is an alpha version.**
-Currently it only supports changes from PHP 5.6 and PHP 7.2 but the goal is to ease future migration to PHP 8.1.
 
 TODO:
 
-* alpha 2
-  * PHP 8.0 changes
-* alpha 3
-  * PHP 8.1 changes 
 * 1.0.0:
-  * tests
   * documentation
