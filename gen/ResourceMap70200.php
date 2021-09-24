@@ -13,17 +13,9 @@ final class ResourceMap70200
      */
     public static function map()
     {
-        return array (
-            'GMP' => 
-            array (
-                0 => 'gmp',
-                1 => 'GMP integer',
-            ),
-            'HashContext' => 
-            array (
-                0 => 'hash',
-                1 => 'Hash Context',
-            ),
+        return array(
+            'GMP' => array('gmp', 'GMP integer'),
+            'HashContext' => array('hash', 'Hash Context'),
         );
     }
 }

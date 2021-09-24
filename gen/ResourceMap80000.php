@@ -13,37 +13,13 @@ final class ResourceMap80000
      */
     public static function map()
     {
-        return array (
-            'CurlHandle' => 
-            array (
-                0 => 'curl',
-                1 => 'curl',
-            ),
-            'CurlMultiHandle' => 
-            array (
-                0 => 'curl',
-                1 => 'curl_multi',
-            ),
-            'CurlShareHandle' => 
-            array (
-                0 => 'curl',
-                1 => 'curl_share',
-            ),
-            'GMP' => 
-            array (
-                0 => 'gmp',
-                1 => 'GMP integer',
-            ),
-            'GdImage' => 
-            array (
-                0 => 'gd',
-                1 => 'gd',
-            ),
-            'HashContext' => 
-            array (
-                0 => 'hash',
-                1 => 'Hash Context',
-            ),
+        return array(
+            'CurlHandle' => array('curl', 'curl'),
+            'CurlMultiHandle' => array('curl', 'curl_multi'),
+            'CurlShareHandle' => array('curl', 'curl_share'),
+            'GMP' => array('gmp', 'GMP integer'),
+            'GdImage' => array('gd', 'gd'),
+            'HashContext' => array('hash', 'Hash Context'),
         );
     }
 }

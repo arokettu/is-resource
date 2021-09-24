@@ -13,12 +13,8 @@ final class ResourceMap50600
      */
     public static function map()
     {
-        return array (
-            'GMP' => 
-            array (
-                0 => 'gmp',
-                1 => 'GMP integer',
-            ),
+        return array(
+            'GMP' => array('gmp', 'GMP integer'),
         );
     }
 }
