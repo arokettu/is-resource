@@ -21,15 +21,18 @@ return array(
             'CurlMultiHandle' => 'curl_multi',
             'CurlShareHandle' => 'curl_share',
         ),
-        // ext-enchant
-        // TODO
+        'enchant' => array(
+            'EnchantBroker' => 'enchant_broker',
+            'EnchantDictionary' => 'enchant_dict',
+        ),
         'gd' => array(
             'GdImage' => 'gd',
         ),
         // ext-openssl
         // TODO
-        // ext-shmop
-        // TODO
+        'shmop' => array(
+            'Shmop' => 'shmop',
+        ),
         'sockets' => array(
             'AddressInfo' => 'AddressInfo',
             'Socket' => 'Socket',
