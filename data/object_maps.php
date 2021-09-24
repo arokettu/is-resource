@@ -72,7 +72,5 @@ return array(
         ),
         // ext-pgsql
         // TODO
-        // ext-pspell
-        // TODO
     ),
 );
