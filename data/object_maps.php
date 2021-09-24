@@ -61,12 +61,15 @@ return array(
         'fileinfo' => array(
             'finfo' => 'file_info',
         ),
-        // ext-ftp
-        // TODO
-        // ext-imap
-        // TODO
-        // ext-ldap
-        // TODO
+        'ftp' => array(
+            'FTP\Connection' => 'FTP Buffer',
+        ),
+        'imap' => array(
+            'IMAP\Connection' => 'imap',
+        ),
+        'ldap' => array(
+            'LDAP\Connection' => 'ldap link',
+        ),
         // ext-pgsql
         // TODO
         // ext-pspell
