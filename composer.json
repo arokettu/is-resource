@@ -1,9 +1,10 @@
 {
     "name": "arokettu/is-resource",
-    "description": "Future compatible is_resource() that can understand opaque objects",
-    "keywords": ["compatibility", "php80", "php81", "resources", "curl", "gd", "mysqli", "pgsql", "hash", "sockets"],
+    "description": "Future compatible is_resource() and get_resource_type() that can understand opaque objects",
+    "keywords": ["compatibility", "php80", "php81", "resources", "curl", "gd", "pgsql", "hash", "sockets"],
     "type": "library",
     "license": "MIT",
+    "homepage": "https://sandfox.dev/php/is-resource.html",
     "authors": [
         {
             "name": "Anton Smirnov",
@@ -12,6 +13,11 @@
             "homepage": "https://sandfox.me/"
         }
     ],
+    "support": {
+        "source": "https://gitlab.com/sandfox/is-resource",
+        "issues": "https://gitlab.com/sandfox/is-resource/-/issues",
+        "docs": "https://is-resource.readthedocs.io/"
+    },
     "config": {
         "sort-packages": true
     },
