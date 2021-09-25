@@ -1,44 +1,43 @@
-IsResource: PHP Resource Compatibility Helper
-#############################################
+IsResource
+##########
 
-Make your code future compatible with opaque objects
+|Packagist| |GitLab| |GitHub| |Bitbucket| |Gitea|
 
-The problem:
+The library provides a version of ``is_resource()`` and ``get_resource_type()`` functions that can understand opaque objects.
+It is useful tool if you need to support a library that may be affected by the `resource to object migration`__.
 
-.. code-block:: php
+.. __: https://github.com/php/php-tasks/issues/6
 
-    <?php
+Installation
+============
 
-    $hash = hash_init('md5');
+.. code-block:: bash
 
-    is_resource($hash); // true in PHP <= 7.1, false in PHP >= 7.2
-    get_resource_type(); // "Hash Context" in PHP <= 7.1, null + warning in PHP >= 7.2
+   composer require 'arokettu/is-resource'
 
-Solution:
+Documentation
+=============
 
-.. code-block:: php
+.. toctree::
+   :maxdepth: 2
 
-    <?php
+   functions
+   extensions
 
-    $hash = hash_init('md5');
+License
+=======
 
-    \Arokettu\IsResource\is_resource($hash); // true
-    \Arokettu\IsResource\get_resource_type($hash); // "Hash Context"
+The library is available as open source under the terms of the `MIT License`_.
 
-**This is an alpha version.**
-Currently it only supports changes from PHP 5.6 and PHP 7.2 but the goal is to ease future migration to PHP 8.1.
+.. _MIT License:        https://opensource.org/licenses/MIT
 
-TODO:
-
-* alpha 2
-
-  * PHP 8.0 changes
-
-* alpha 3
-
-  * PHP 8.1 changes
-
-* 1.0.0:
-
-  * tests
-  * documentation
+.. |Packagist|  image:: https://img.shields.io/packagist/v/arokettu/is-resource.svg?style=flat-square
+   :target:     https://packagist.org/packages/arokettu/is-resource
+.. |GitHub|     image:: https://img.shields.io/badge/get%20on-GitHub-informational.svg?style=flat-square&logo=github
+   :target:     https://github.com/arokettu/is-resource
+.. |GitLab|     image:: https://img.shields.io/badge/get%20on-GitLab-informational.svg?style=flat-square&logo=gitlab
+   :target:     https://gitlab.com/sandfox/is-resource
+.. |Bitbucket|  image:: https://img.shields.io/badge/get%20on-Bitbucket-informational.svg?style=flat-square&logo=bitbucket
+   :target:     https://bitbucket.org/sandfox/is-resource
+.. |Gitea|      image:: https://img.shields.io/badge/get%20on-Gitea-informational.svg?style=flat-square&logo=gitea
+   :target:     https://sandfox.org/sandfox/is-resource
