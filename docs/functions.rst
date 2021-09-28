@@ -45,7 +45,7 @@ In other cases the behavior falls back to the default ``\get_resource_type()`` b
 
     <?php
 
-    function \Arokettu\IsResource\try_get_resource_type(resource|object $resource): string|null;
+    function \Arokettu\IsResource\try_get_resource_type(mixed $resource): string|null;
 
 A useful shortcut to check the resource type.
 It returns null in case the resource was not recognized.

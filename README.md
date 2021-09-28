@@ -18,7 +18,7 @@ $hash = hash_init('md5');
 
 // vanilla functions:
 is_resource($hash); // true in PHP <= 7.1, false in PHP >= 7.2
-get_resource_type($hash); // "Hash Context" in PHP <= 7.1, null + warning in PHP >= 7.2
+get_resource_type($hash); // "Hash Context" in PHP <= 7.1, null or TypeError in PHP >= 7.2
 
 // library functions:
 r\is_resource($hash); // true
