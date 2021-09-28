@@ -1,7 +1,12 @@
 {
     "name": "arokettu/is-resource",
     "description": "Future compatible is_resource() and get_resource_type() that can understand opaque objects",
-    "keywords": ["compatibility", "php80", "php81", "resources", "curl", "gd", "pgsql", "hash", "sockets"],
+    "keywords": [
+        "compatibility", "resources",
+        "curl", "gd", "pgsql", "hash", "sockets",
+        "is_resource", "get_resource_type",
+        "php80", "php81"
+    ],
     "type": "library",
     "license": "MIT",
     "homepage": "https://sandfox.dev/php/is-resource.html",
