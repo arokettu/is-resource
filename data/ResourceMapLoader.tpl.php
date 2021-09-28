@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var array $versions
+ */
+?>
 <?php echo "<?php\n" ?>
 
 namespace Arokettu\IsResource;
