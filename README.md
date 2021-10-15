@@ -5,7 +5,7 @@
 [![Packagist](https://img.shields.io/github/license/arokettu/is-resource.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/sandfox/is-resource/master.svg?style=flat-square)](https://gitlab.com/sandfox/is-resource/-/pipelines)
 
-``is_resource()`` and ``get_resource_type();`` that work with opaque objects.
+``is_resource()`` and ``get_resource_type()`` that work with opaque objects.
 
 ## Usage
 
