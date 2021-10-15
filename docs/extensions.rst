@@ -36,11 +36,36 @@ Converted in PHP 8.0
 Converted in PHP 8.1
 --------------------
 
+.. note:: ``pspell`` is not covered by this lib, `see below <pspell_wrongdoc_>`__
+
 * ``fileinfo`` (``finfo``)
 * ``ftp`` (``FTP\Connection``)
 * ``imap`` (``IMAP\Connection``)
 * ``ldap`` (``LDAP\Connection``, ``LDAP\Result``, ``LDAP\ResultEntry``)
 * ``pgsql`` (``PgSql\Connection``, ``PgSql\Result``, ``PgSql\Lob``)
+
+Special cases
+=============
+
+.. _pspell_wrongdoc:
+
+PSpell
+------
+
+The PSpell extension is not covered by this library because the PHP documentation is misleading.
+The changelog__ currently states this:
+
+.. __: https://www.php.net/manual/en/function.pspell-new.php#refsect1-function.pspell-new-changelog
+
+.. list-table::
+
+    * * Version
+      * Description
+    * * 8.1.0
+      * Returns an ``PSpell\Dictionary`` instance now; previously, a ``resource`` was returned.
+
+But if you try to use ``pspell_new()`` or ``pspell_config_create()`` in earlier PHP, you can notice that they return int, not resource.
+Therefore return values of these functions could never have been checked by ``is_resource()`` / ``get_resource_type()``.
 
 Submitting a missing resource
 =============================
