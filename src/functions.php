@@ -50,7 +50,7 @@ function get_resource_type($resource)
 /**
  * Returns the resource type
  *
- * @param $resource resource|object $resource The evaluated resource handle or opaque object that replaced it.
+ * @param resource|object|mixed $resource $resource The evaluated resource handle or opaque object that replaced it.
  * @return string|null null if $resource is not a resource or an opaque object, same as get_resource_type() otherwise.
  * @see \Arokettu\IsResource\get_resource_type()
  */
