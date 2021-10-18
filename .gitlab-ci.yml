@@ -30,16 +30,6 @@ stages:
     - tests/tests.sh
 
 # lowest tested version
-test-5.4:
-  extends: .test
-  stage: test
-  image: php:5.4
-
-test-5.5:
-  extends: .test
-  stage: test
-  image: php:5.5
-
 test-5.6:
   extends: .test
   stage: test
