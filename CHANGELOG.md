@@ -7,7 +7,7 @@
 * Stronger future compatibility promise: do not install package on versions without metadata
 * 1.0.0 and 1.0.0-alpha1 are now removed so the solver won't be confused
 
-## ~~1.0.0~~ (yanked)
+## ~~1.0.0~~ (yanked, was 8ef6383)
 
 *Sep 25, 2021*
 
@@ -45,7 +45,7 @@
   * `PgSql\Lob`
 * Proper documentation
 
-## ~~1.0.0-alpha1~~ (yanked)
+## ~~1.0.0-alpha1~~ (yanked, was 827ad87)
 
 *Sep 23, 2021*
 
