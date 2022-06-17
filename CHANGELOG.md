@@ -1,6 +1,13 @@
 # Changelog
 
-## 1.0.0
+## 1.0.1
+
+*Jun 18, 2022*
+
+* Stronger future compatibility promise: do not install package on versions without metadata
+* 1.0.0 and 1.0.0-alpha1 are now removed so the solver won't be confused
+
+## ~~1.0.0~~ (yanked)
 
 *Sep 25, 2021*
 
@@ -38,7 +45,7 @@
   * `PgSql\Lob`
 * Proper documentation
 
-## 1.0.0-alpha1
+## ~~1.0.0-alpha1~~ (yanked)
 
 *Sep 23, 2021*
 
