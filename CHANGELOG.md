@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+*Sep 2, 2022*
+
+* Allow PHP 8.2, no changes to resources
+
 ## 1.0.1
 
 *Jun 18, 2022*
