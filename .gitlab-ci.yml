@@ -68,9 +68,9 @@ test-8.0:
 test-8.1:
   extends: .test
   stage: test
-  image: php:8.1-rc
+  image: php:8.1
 
-test-rc:
+test-8.2:
   extends: .test
   stage: test
-  image: php:rc
+  image: php:8.2
