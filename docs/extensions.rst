@@ -44,6 +44,11 @@ Converted in PHP 8.1
 * ``ldap`` (``LDAP\Connection``, ``LDAP\Result``, ``LDAP\ResultEntry``)
 * ``pgsql`` (``PgSql\Connection``, ``PgSql\Result``, ``PgSql\Lob``)
 
+Converted in PHP 8.4
+--------------------
+
+* ``odbc`` (``Odbc\Connection``, ``Odbc\Result``)
+
 Special cases
 =============
 
