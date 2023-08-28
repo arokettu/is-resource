@@ -84,4 +84,11 @@ return array(
             'PgSql\Lob' => 'pgsql large object',
         ),
     ),
+    80400 => array(
+        'odbc' => array(
+            'Odbc\Connection' => 'odbc link',
+            // 'odbc link persistent' is an instance of Odbc\Connection too, can't differentiate them
+            'Odbc\Result' => 'odbc result',
+        ),
+    ),
 );
