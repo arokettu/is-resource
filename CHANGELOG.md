@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+*Aug 28, 2023*
+
+* Allow PHP 8.3, no changes to resources
+
 ## 1.0.2
 
 *Sep 2, 2022*
