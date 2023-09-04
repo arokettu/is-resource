@@ -3,7 +3,8 @@ IsResource
 
 |Packagist| |GitLab| |GitHub| |Bitbucket| |Gitea|
 
-The library provides a version of ``is_resource()`` and ``get_resource_type()`` functions that can understand opaque objects.
+The library provides a version of ``is_resource()`` and ``get_resource_type()`` functions
+that can understand objects that replaced earlier resources.
 It is useful tool if you need to support a library that may be affected by the `resource to object migration`__.
 
 .. __: https://github.com/php/php-tasks/issues/6

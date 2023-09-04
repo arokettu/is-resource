@@ -1,6 +1,6 @@
 {
     "name": "arokettu/is-resource",
-    "description": "Future compatible is_resource() and get_resource_type() that can understand opaque objects",
+    "description": "Future compatible is_resource() and get_resource_type() that can understand objects that replaced earlier resources",
     "keywords": [
         "compatibility", "resources",
         "curl", "gd", "pgsql", "hash", "sockets",

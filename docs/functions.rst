@@ -15,7 +15,7 @@ Functions
 The function returns ``true`` if ``$value`` is
 
 * a resource
-* an opaque object that was a resource in earlier PHP versions
+* an object that was a resource in earlier PHP versions
 
 ``get_resource_type()``
 =======================
@@ -31,7 +31,7 @@ The function returns ``true`` if ``$value`` is
 The function returns the resource type string if ``$resource`` is
 
 * a resource
-* an opaque object that was a resource in earlier PHP versions
+* an object that was a resource in earlier PHP versions
 
 In other cases the behavior falls back to the default ``\get_resource_type()`` behavior:
 
