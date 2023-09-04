@@ -84,4 +84,9 @@ return array(
             'PgSql\Lob' => 'pgsql large object',
         ),
     ),
+    80400 => array(
+        'standard' => array(
+            'Process' => 'process',
+        ),
+    ),
 );
