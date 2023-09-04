@@ -91,4 +91,9 @@ return array(
             'Odbc\Result' => 'odbc result',
         ),
     ),
+    90000 => array(
+        'standard' => array(
+            'Standard\Process' => 'process',
+        ),
+    ),
 );
