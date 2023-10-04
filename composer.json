@@ -21,7 +21,8 @@
     "support": {
         "source": "https://gitlab.com/sandfox/is-resource",
         "issues": "https://gitlab.com/sandfox/is-resource/-/issues",
-        "docs": "https://is-resource.readthedocs.io/"
+        "docs": "https://is-resource.readthedocs.io/",
+        "chat": "https://gitter.im/arokettu/community"
     },
     "config": {
         "sort-packages": true
