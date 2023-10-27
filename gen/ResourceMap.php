@@ -2,6 +2,12 @@
 
 namespace Arokettu\IsResource;
 
+if (\PHP_VERSION_ID >= 80400) {
+    require __DIR__ . '/ResourceMap80400.php';
+    \class_alias('Arokettu\\IsResource\\ResourceMap80400', 'Arokettu\\IsResource\\ResourceMap');
+    return;
+}
+
 if (\PHP_VERSION_ID >= 80100) {
     require __DIR__ . '/ResourceMap80100.php';
     \class_alias('Arokettu\\IsResource\\ResourceMap80100', 'Arokettu\\IsResource\\ResourceMap');
