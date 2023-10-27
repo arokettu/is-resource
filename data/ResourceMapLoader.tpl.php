@@ -30,7 +30,7 @@ if (\false) {
          */
         public static function map()
         {
-            return array();
+            throw new \LogicException('This class should never be loaded');
         }
     }
 }
