@@ -62,7 +62,10 @@ It returns null in case the resource was not recognized.
     }
 
     // With PHP 8.1 this transforms to:
-    if (is_resource($conn) && get_resource_type($conn) === 'pgsql link' || $conn instanceof PgSql\Connection) {
+    if (
+        is_resource($conn) && get_resource_type($conn) === 'pgsql link' ||
+        $conn instanceof PgSql\Connection
+    ) {
         // ...
     }
 
