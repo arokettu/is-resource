@@ -90,5 +90,9 @@ return array(
             // 'odbc link persistent' is an instance of Odbc\Connection too, can't differentiate them
             'Odbc\Result' => 'odbc result',
         ),
+        'soap' => array(
+            'Soap\Url' => 'SOAP URL',
+            'Soap\Sdl' => 'SOAP SDL',
+        )
     ),
 );

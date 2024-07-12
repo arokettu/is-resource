@@ -47,7 +47,12 @@ Converted in PHP 8.1
 Converted in PHP 8.4
 --------------------
 
+.. note:: ``"SOAP table"`` `is now an array`__ and therefore cannot be covered
+
+.. __: https://github.com/php/php-src/pull/14174
+
 * ``odbc`` (``Odbc\Connection``, ``Odbc\Result``)
+* ``soap`` (``Soap\Url``, ``Soap\Sdl``)
 
 Special cases
 =============

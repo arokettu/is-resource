@@ -39,6 +39,8 @@ final class ResourceMap80400
             'PgSql\\Lob' => array('pgsql', 'pgsql large object'),
             'PgSql\\Result' => array('pgsql', 'pgsql result'),
             'Shmop' => array('shmop', 'shmop'),
+            'Soap\\Sdl' => array('soap', 'SOAP SDL'),
+            'Soap\\Url' => array('soap', 'SOAP URL'),
             'Socket' => array('sockets', 'Socket'),
             'SysvMessageQueue' => array('sysvmsg', 'sysvmsg queue'),
             'SysvSemaphore' => array('sysvsem', 'sysvsem'),
