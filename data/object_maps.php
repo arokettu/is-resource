@@ -93,6 +93,9 @@ return array(
         'soap' => array(
             'Soap\Url' => 'SOAP URL',
             'Soap\Sdl' => 'SOAP SDL',
-        )
+        ),
+        'dba' => array(
+            'Dba\Connection' => 'dba',
+        ),
     ),
 );

@@ -53,6 +53,7 @@ Converted in PHP 8.4
 
 * ``odbc`` (``Odbc\Connection``, ``Odbc\Result``)
 * ``soap`` (``Soap\Url``, ``Soap\Sdl``)
+* ``dba`` (``Dba\Connection```)
 
 Special cases
 =============

@@ -18,6 +18,7 @@ final class ResourceMap80400
             'CurlHandle' => array('curl', 'curl'),
             'CurlMultiHandle' => array('curl', 'curl_multi'),
             'CurlShareHandle' => array('curl', 'curl_share'),
+            'Dba\\Connection' => array('dba', 'dba'),
             'DeflateContext' => array('zlib', 'zlib.deflate'),
             'EnchantBroker' => array('enchant', 'enchant_broker'),
             'EnchantDictionary' => array('enchant', 'enchant_dict'),
