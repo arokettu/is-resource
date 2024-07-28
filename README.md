@@ -7,6 +7,12 @@
 
 ``is_resource()`` and ``get_resource_type()`` that can understand objects that replaced earlier resources.
 
+## Installation
+
+```bash
+composer require arokettu/is-resource
+```
+
 ## Usage
 
 ```php
@@ -23,12 +29,6 @@ get_resource_type($hash); // "Hash Context" in PHP <= 7.1, null or TypeError in 
 // library functions:
 r\is_resource($hash); // true
 r\get_resource_type($hash); // "Hash Context"
-```
-
-## Installation
-
-```bash
-composer require arokettu/is-resource
 ```
 
 ## Documentation
