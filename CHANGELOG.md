@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.4
+
+*Aug 27, 2024*
+
+* Allow PHP 8.4
+* Added resources from extensions: odbc, soap, dba
+
 ## 1.0.3
 
 *Aug 28, 2023*
