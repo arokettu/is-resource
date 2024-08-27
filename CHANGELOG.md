@@ -1,32 +1,34 @@
 # Changelog
 
-## 1.0.4
+## 1.x
+
+### 1.0.4
 
 *Aug 27, 2024*
 
 * Allow PHP 8.4
 * Added resources from extensions: odbc, soap, dba
 
-## 1.0.3
+### 1.0.3
 
 *Aug 28, 2023*
 
 * Allow PHP 8.3, no changes to resources
 
-## 1.0.2
+### 1.0.2
 
 *Sep 2, 2022*
 
 * Allow PHP 8.2, no changes to resources
 
-## 1.0.1
+### 1.0.1
 
 *Jun 18, 2022*
 
 * Stronger future compatibility promise: do not install package on versions without metadata
 * 1.0.0 and 1.0.0-alpha1 are now removed so the solver won't be confused
 
-## ~~1.0.0~~ (yanked, was 8ef6383)
+### ~~1.0.0~~ (yanked, was 8ef6383)
 
 *Sep 25, 2021*
 
@@ -64,7 +66,7 @@
   * `PgSql\Lob`
 * Proper documentation
 
-## ~~1.0.0-alpha1~~ (yanked, was 827ad87)
+### ~~1.0.0-alpha1~~ (yanked, was 827ad87)
 
 *Sep 23, 2021*
 
