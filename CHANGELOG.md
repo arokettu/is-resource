@@ -2,6 +2,12 @@
 
 ## 1.x
 
+### 1.0.5
+
+*Aug 15, 2025*
+
+* Allow PHP 8.5, no changes to resources
+
 ### 1.0.4
 
 *Aug 27, 2024*
