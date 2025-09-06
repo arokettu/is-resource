@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2021 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 namespace Arokettu\IsResource;
 
 if (\PHP_VERSION_ID >= 80400) {

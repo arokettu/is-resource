@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
 
+/**
+ * @copyright 2021 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 require __DIR__ . '/func/functions.php';
 
 $versionMaps = require __DIR__ . '/../data/object_maps.php';

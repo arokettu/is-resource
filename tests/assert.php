@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2021 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 class TestAssertion extends Exception {}
 
 function assert_equals($expected, $actual, $message = null)

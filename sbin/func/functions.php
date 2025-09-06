@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2021 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 function export($array)
 {
     if ($array === array()) {

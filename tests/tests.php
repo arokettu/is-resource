@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2021 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/assert.php';
 

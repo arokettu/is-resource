@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2021 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 // top key is PHP_VERSION_ID for the resource change introduction
 
 // child arrays are maps 'new class name' => 'old resource type string'
