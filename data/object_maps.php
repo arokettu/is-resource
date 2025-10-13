@@ -103,4 +103,9 @@ return array(
             'Dba\Connection' => 'dba',
         ),
     ),
+    90000 => array(
+        'standard' => array(
+            'Standard\Process' => 'process',
+        ),
+    ),
 );
