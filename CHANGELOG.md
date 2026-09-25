@@ -4,6 +4,8 @@
 
 ### 1.0.6
 
+*Sep 26, 2026*
+
 * Allow PHP 8.6, no changes to resources
 
 ### 1.0.5
